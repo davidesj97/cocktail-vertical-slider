@@ -26,3 +26,9 @@
   bottom: 50%;
   left: 35%;
 }
+.btn-up > svg {
+  fill: red;
+}
+.btn-up > svg:hover {
+  fill: blue;
+}
