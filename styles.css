@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  width: 100%;
+  display: flex;
+}
+.left-side {
+  width: 35%;
+  height: 100vh;
+  outline: 1px solid #727272;
+}
+.right-side {
+  width: 65%;
+  height: 100vh;
+  outline: 1px solid #727272;
+}
+.btn-down {
+  position: absolute;
+  top: 50%;
+  right: 65%;
+}
+.btn-up {
+  position: absolute;
+  bottom: 50%;
+  left: 35%;
+}
